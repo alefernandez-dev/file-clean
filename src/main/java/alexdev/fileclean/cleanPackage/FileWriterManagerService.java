@@ -19,7 +19,7 @@ public class FileWriterManagerService {
         if (envDirectory != null && !envDirectory.isEmpty()) {
             DIRECTORY = envDirectory;
         } else {
-            DIRECTORY = "/files";
+            DIRECTORY = "./files";
         }
     }
 
